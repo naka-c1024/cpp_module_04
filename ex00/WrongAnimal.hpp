@@ -1,0 +1,20 @@
+#ifndef WRONGANIMAL_HPP
+#define WRONGANIMAL_HPP
+
+#include <string>
+
+class WrongAnimal
+{
+public:
+	WrongAnimal();
+	virtual ~WrongAnimal();
+	WrongAnimal(WrongAnimal const &other);
+	WrongAnimal &operator=(WrongAnimal const &other);
+
+	std::string	getType() const;
+	void	makeSound() const; // virtualなし
+protected:
+	std::string	_type;
+};
+
+#endif /* WRONGANIMAL_HPP */
