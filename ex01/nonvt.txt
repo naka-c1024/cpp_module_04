@@ -1,0 +1,45 @@
+---- Defalt test ----
+Animal: Default constructor called
+Dog: Default constructor called
+Brain: Defalt constructor called
+Animal: Default constructor called
+Cat: Default constructor called
+Brain: Defalt constructor called
+Animal: Destructor called
+Animal: Destructor called
+
+---- create and fill an array of Animal objects. ----
+Animal: Default constructor called
+Dog: Default constructor called
+Brain: Defalt constructor called
+Animal: Default constructor called
+Cat: Default constructor called
+Brain: Defalt constructor called
+Animal: Default constructor called
+Dog: Default constructor called
+Brain: Defalt constructor called
+Animal: Default constructor called
+Cat: Default constructor called
+Brain: Defalt constructor called
+Animal: Destructor called
+Animal: Destructor called
+Animal: Destructor called
+Animal: Destructor called
+
+---- test that your copies are deep copies! ----
+Animal: Default constructor called
+Cat: Default constructor called
+Brain: Defalt constructor called
+Up to 100 characters can be assigned.
+Animal: Default constructor called
+Cat: Copy constructor called
+Brain: Defalt constructor called
+hoge: Up to 100 characters can be assigned.
+hoge2: Deep copy done!!!!
+Cat: Destructor called
+Brain: Destructor called
+Animal: Destructor called
+Cat: Destructor called
+Brain: Destructor called
+Animal: Destructor called
+
