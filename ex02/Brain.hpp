@@ -11,7 +11,7 @@ public:
 	Brain(Brain const &other);
 	Brain &operator=(Brain const &other);
 
-	std::string	_ideas[100]; // privateにする?
+	std::string	_ideas[100];
 };
 
 #endif /* BRAIN_HPP */
