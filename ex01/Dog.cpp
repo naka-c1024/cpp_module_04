@@ -10,7 +10,7 @@ Dog::Dog()
 Dog::~Dog()
 {
 	std::cout << "Dog: Destructor called" << std::endl;
-	delete _brain;
+	delete this->_brain;
 }
 Dog::Dog(const Dog &other)
 {

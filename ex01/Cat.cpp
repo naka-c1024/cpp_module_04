@@ -10,7 +10,7 @@ Cat::Cat()
 Cat::~Cat()
 {
 	std::cout << "Cat: Destructor called" << std::endl;
-	delete _brain;
+	delete this->_brain;
 }
 Cat::Cat(const Cat &other)
 {
