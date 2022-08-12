@@ -7,7 +7,7 @@ class Animal // 純粋仮想関数があるから抽象クラスになった
 {
 public:
 	Animal();
-	virtual ~Animal(); // virtualにしないとメモリーリークが起きる, 試すときはフラグは外す
+	virtual ~Animal();
 	Animal(Animal const &other);
 	Animal &operator=(Animal const &other);
 

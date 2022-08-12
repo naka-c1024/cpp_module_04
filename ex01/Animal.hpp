@@ -7,7 +7,7 @@ class Animal
 {
 public:
 	Animal();
-	virtual ~Animal(); // virtualにしないとメモリーリークが起きる, 試すときはフラグは外す
+	virtual ~Animal();
 	Animal(Animal const &other);
 	Animal &operator=(Animal const &other);
 

@@ -8,7 +8,7 @@
 
 void check_array(void)
 {
-	Animal	*arr[NUM]; // Animal型のポインタ宣言をしただけで実態があるわけじゃない->コンストラクタ発火しない
+	Animal	*arr[NUM];
 
 	for(int i = 0; i < NUM; i++)
 	{
