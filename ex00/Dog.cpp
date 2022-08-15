@@ -4,7 +4,7 @@
 Dog::Dog()
 {
 	std::cout << "Dog: Default constructor called" << std::endl;
-	this->_type = "Dog";
+	this->type = "Dog";
 }
 Dog::~Dog()
 {
@@ -19,12 +19,12 @@ Dog &Dog::operator=(const Dog &other)
 {
 	if (this != &other)
 	{
-		this->_type = other.getType();
+		this->type = other.getType();
 	}
 	return *this;
 }
 
 void	Dog::makeSound() const
 {
-	std::cout << this->_type << " says: Woof!" << std::endl;
+	std::cout << this->type << " says: Woof!" << std::endl;
 }

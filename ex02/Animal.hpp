@@ -14,7 +14,7 @@ public:
 	std::string	getType() const;
 	virtual void	makeSound() const = 0; // 純粋仮想関数
 protected:
-	std::string	_type;
+	std::string	type;
 };
 
 #endif /* ANIMAL_HPP */

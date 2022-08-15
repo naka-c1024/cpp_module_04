@@ -4,7 +4,7 @@
 Cat::Cat()
 {
 	std::cout << "Cat: Default constructor called" << std::endl;
-	this->_type = "Cat";
+	this->type = "Cat";
 	this->_brain = new Brain();
 }
 Cat::~Cat()
@@ -21,7 +21,7 @@ Cat &Cat::operator=(const Cat &other)
 {
 	if (this != &other)
 	{
-		this->_type = other.getType();
+		this->type = other.getType();
 		this->_brain = new Brain();
 		for (size_t i = 0; i < 100; i++)
 		{
@@ -33,7 +33,7 @@ Cat &Cat::operator=(const Cat &other)
 
 void	Cat::makeSound() const
 {
-	std::cout << this->_type << " says: Meow!" << std::endl;
+	std::cout << this->type << " says: Meow!" << std::endl;
 }
 
 Brain	*Cat::get_brain() const

@@ -14,7 +14,7 @@ public:
 	std::string	getType() const;
 	void	makeSound() const; // virtualなし
 protected:
-	std::string	_type;
+	std::string	type;
 };
 
 #endif /* WRONGANIMAL_HPP */

@@ -1,7 +1,7 @@
 #include "Animal.hpp"
 #include <iostream>
 
-Animal::Animal():_type("Animal")
+Animal::Animal():type("Animal")
 {
 	std::cout << "Animal: Default constructor called" << std::endl;
 }
@@ -18,14 +18,14 @@ Animal &Animal::operator=(const Animal &other)
 {
 	if (this != &other)
 	{
-		this->_type = other.getType();
+		this->type = other.getType();
 	}
 	return *this;
 }
 
 std::string	Animal::getType() const
 {
-	return (this->_type);
+	return (this->type);
 }
 
 void	Animal::makeSound() const
