@@ -2,7 +2,7 @@ NAME	:=	a.out
 CXX		:=	c++
 RM		:=	rm -rf
 CXXFLAGS	:=	-Wall -Wextra -Werror
-CXXFLAGS	+= -std=c++98 -pedantic -MMD -MP
+CXXFLAGS	+=	-std=c++98 -pedantic -MMD -MP
 
 DEBUG_FLAGS	:=	-g #-fsanitize=address -fsanitize=undefined
 # For M1MacBook, run the command below.
