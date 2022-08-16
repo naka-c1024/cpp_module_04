@@ -16,7 +16,7 @@ public:
 	Brain	*get_brain() const;
 
 private:
-	Brain	*_brain;
+	Brain	*brain_;
 };
 
 #endif /* DOG_HPP */

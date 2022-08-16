@@ -20,7 +20,7 @@ Brain &Brain::operator=(const Brain &other)
 	{
 		for (size_t i = 0; i < 100; i++)
 		{
-			this->_ideas[i] = other._ideas[i];
+			this->ideas_[i] = other.ideas_[i];
 		}
 	}
 	return *this;
