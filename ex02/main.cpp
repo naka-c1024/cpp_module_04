@@ -40,7 +40,7 @@ void	cp_op_test(void)
 	Cat	d;
 	Cat	e(d);
 	Cat	f;
-	f = d; // ここでleak
+	f = d;
 	std::cout << "type: " << f.getType() << std::endl;
 }
 
